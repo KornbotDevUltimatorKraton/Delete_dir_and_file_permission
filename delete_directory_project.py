@@ -1,13 +1,10 @@
 import shutil
 import subprocess
-import getpass
 
 def delete_folder_with_password(folder_path):
     # Get password securely
-    #password = getpass.getpass("Enter your password: ")
-
     # Construct the command to delete the folder with sudo
-    command = f"echo {'Rklc3548@##'} | sudo -S rm -rf {folder_path}"
+    command = f"echo {'Rcerccccees'} | sudo -S rm -rf {folder_path}"
 
     try:
         # Execute the command with sudo
